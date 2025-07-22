@@ -1,4 +1,31 @@
-# Plantuml
+# PlantUML for FigJam
+
+Create and edit UML diagrams in FigJam rapidly using PlantUML syntax!
+
+## 🚀 Getting Started
+**[PlantUML](https://plantuml.com/)** is a highly versatile tool that facilitates the rapid and straightforward creation of a wide array of diagrams.
+
+Utilizing a simple and intuitive language, users can effortlessly draft various types of diagrams. For a detailed exploration of the language's capabilities and syntax, please refer to the [PlantUML Language Reference Guide](https://plantuml.com/guide).
+
+If you are new to PlantUML, we recommend starting with their [quick start page](https://plantuml.com/starting) to get up and running quickly. Should you have any questions, their [F.A.Q. page](https://plantuml.com/faq) is a valuable resource.
+
+## 🧩 Supported UML Diagrams
+With PlantUML, you can create well-structured UML diagrams, including but not limited to:
+- [Sequence diagram](https://plantuml.com/sequence-diagram)
+- [Usecase diagram](https://plantuml.com/use-case-diagram)
+- [Class diagram](https://plantuml.com/class-diagram)
+- [Object diagram](https://plantuml.com/object-diagram)
+- [Activity diagram](https://plantuml.com/activity-diagram-beta)
+- [Component diagram](https://plantuml.com/component-diagram)
+- [Deployment diagram](https://plantuml.com/deployment-diagram)
+- [State diagram](https://plantuml.com/state-diagram)
+- [Timing diagram](https://plantuml.com/timing-diagram)
+
+## 📈 Supported Non-UML Diagrams
+Beyond the traditional UML diagrams, PlantUML also supports the creation of various other diagram types. See [their website for details](https://plantuml.com/).
+
+## 🎉 Enjoy
+Get started today and elevate your diagramming capabilities with **PlantUML**.
 
 ## Development guide
 
