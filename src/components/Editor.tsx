@@ -58,15 +58,7 @@ export function Editor({ value, onChange }: EditorProps) {
   return (
     <div
       ref={containerRef}
-      style={{
-        width: "100%",
-        height: "100%",
-        minHeight: 0,
-        minWidth: 0,
-        overflow: "auto",
-        border: "1px solid #e1e1e1",
-        fontSize: "1rem",
-      }}
+      className="h-full min-h-0 w-full min-w-0 overflow-auto border border-figma-border"
     />
   );
 }
