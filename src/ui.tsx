@@ -60,23 +60,23 @@ function Plugin({ text: textIn = DEFAULT_VALUE }: PluginProps) {
   });
 
   return (
-    <div className="flex h-full flex-col py-4">
-      <div className="flex h-full w-full">
-        <div className="flex h-full min-h-[200px] w-2/5 min-w-[400px] pl-4">
+    <div className="flex h-screen flex-col overflow-hidden">
+      <div className="flex h-full w-full overflow-hidden">
+        <div className="flex h-full min-h-[200px] w-2/5 min-w-[400px] py-4 pl-4">
           <div className="h-full w-full overflow-auto">
             <Editor value={text} onChange={onInput} />
           </div>
         </div>
-        <div className="w-full flex-1 px-4">
+        <div className="w-full flex-1 overflow-auto p-4">
           <img
-            className="inline-block max-h-full max-w-full"
+            className="inline-block max-w-full"
             alt="diagram preview"
             src={previewURL}
           />
         </div>
       </div>
 
-      <div className="flex justify-between border-t border-t-figma-border px-4 pt-4">
+      <div className="flex justify-between border-t border-t-figma-border p-4">
         <a
           href="https://plantuml.com"
           rel="noopener noreferrer"
